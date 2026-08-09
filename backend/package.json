@@ -1,1 +1,19 @@
-{"name":"apna-basera-backend","version":"1.0.0","type":"module","scripts":{"dev":"node server.js","start":"node server.js"},"dependencies":{"cors":"latest","express":"latest"}}
+{
+  "name": "apna-basera-backend",
+  "version": "1.0.0",
+  "description": "Apna Basera API - properties and enquiries for the student accommodation platform",
+  "license": "ISC",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}

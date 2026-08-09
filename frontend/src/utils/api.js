@@ -1,10 +1,14 @@
 import { mockProperties } from "./mockProperties.js";
 
-const API = "http://localhost:5000/api";
+// Same-origin by default: in dev the Vite proxy forwards /api to the
+// backend, and in production Vercel rewrites /api to the backend service.
+// No cross-origin requests => no CORS errors. Override with VITE_API_URL
+// if the API is ever hosted on a separate domain.
+const API = import.meta.env.VITE_API_URL || "/api";
 
 async function tryFetch(url, options) {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 1800);
+  const timeout = setTimeout(() => controller.abort(), 8000);
 
   try {
     const response = await fetch(url, { ...options, signal: controller.signal });
