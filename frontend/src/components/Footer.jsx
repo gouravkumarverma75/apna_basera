@@ -1,0 +1,1 @@
+export default function Footer(){return <footer><div className="brand">⌂ Apna Basera</div><p>Naye sheher mein, apna basera.</p><small>© 2026 Apna Basera · Built for students</small></footer>}

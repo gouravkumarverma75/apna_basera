@@ -1,0 +1,1 @@
+export default function StudentStory(){return <section className="story"><div><span className="eyebrow">A STUDENT'S FIRST NIGHT</span><h2>“College naya tha.<br/>City nayi thi.<br/><em>Bas ek safe jagah chahiye thi.</em>”</h2></div><p>Apna Basera helps students find a place that feels right — before they move in.</p></section>}

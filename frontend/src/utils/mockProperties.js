@@ -1,0 +1,309 @@
+export const mockProperties = [
+  {
+    "id": 1,
+    "name": "Urban Nest PG",
+    "location": "Near ABES Engineering College",
+    "city": "Ghaziabad",
+    "rent": 8500,
+    "deposit": 10000,
+    "rating": 4.6,
+    "reviews": 42,
+    "trustScore": 94,
+    "verified": true,
+    "distance": "1.2 km",
+    "roomType": [
+      "Single",
+      "Double"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Food",
+      "AC",
+      "Laundry"
+    ],
+    "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=85",
+    "description": "A student-friendly stay with transparent pricing, practical amenities and easy access to college areas.",
+    "verificationDetails": {
+      "owner": 100,
+      "price": 96,
+      "reviews": 91,
+      "freshness": 88
+    }
+  },
+  {
+    "id": 2,
+    "name": "Campus Heights",
+    "location": "Crossings Republik",
+    "city": "Ghaziabad",
+    "rent": 7200,
+    "deposit": 8000,
+    "rating": 4.5,
+    "reviews": 31,
+    "trustScore": 91,
+    "verified": true,
+    "distance": "2.8 km",
+    "roomType": [
+      "Double",
+      "Shared"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Food",
+      "Laundry",
+      "Power Backup"
+    ],
+    "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=900&q=85",
+    "description": "A student-friendly stay with transparent pricing, practical amenities and easy access to college areas.",
+    "verificationDetails": {
+      "owner": 100,
+      "price": 96,
+      "reviews": 91,
+      "freshness": 88
+    }
+  },
+  {
+    "id": 3,
+    "name": "Green View Residency",
+    "location": "Vasundhara Sector 5",
+    "city": "Ghaziabad",
+    "rent": 9000,
+    "deposit": 12000,
+    "rating": 4.8,
+    "reviews": 58,
+    "trustScore": 96,
+    "verified": true,
+    "distance": "4.1 km",
+    "roomType": [
+      "Single",
+      "Double"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Laundry",
+      "Parking"
+    ],
+    "image": "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=900&q=85",
+    "description": "A student-friendly stay with transparent pricing, practical amenities and easy access to college areas.",
+    "verificationDetails": {
+      "owner": 100,
+      "price": 96,
+      "reviews": 91,
+      "freshness": 88
+    }
+  },
+  {
+    "id": 4,
+    "name": "Scholar's House",
+    "location": "Knowledge Park III",
+    "city": "Greater Noida",
+    "rent": 6800,
+    "deposit": 7000,
+    "rating": 4.4,
+    "reviews": 27,
+    "trustScore": 87,
+    "verified": true,
+    "distance": "1.7 km",
+    "roomType": [
+      "Shared",
+      "Double"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Food",
+      "Power Backup"
+    ],
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=85",
+    "description": "A student-friendly stay with transparent pricing, practical amenities and easy access to college areas.",
+    "verificationDetails": {
+      "owner": 100,
+      "price": 96,
+      "reviews": 82,
+      "freshness": 76
+    }
+  },
+  {
+    "id": 5,
+    "name": "The Student Habitat",
+    "location": "Indirapuram",
+    "city": "Ghaziabad",
+    "rent": 9800,
+    "deposit": 15000,
+    "rating": 4.7,
+    "reviews": 49,
+    "trustScore": 93,
+    "verified": true,
+    "distance": "5.3 km",
+    "roomType": [
+      "Single",
+      "Double"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Food",
+      "Laundry"
+    ],
+    "image": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?auto=format&fit=crop&w=900&q=85",
+    "description": "A student-friendly stay with transparent pricing, practical amenities and easy access to college areas.",
+    "verificationDetails": {
+      "owner": 100,
+      "price": 96,
+      "reviews": 91,
+      "freshness": 88
+    }
+  },
+  {
+    "id": 6,
+    "name": "Pari Chowk Homes",
+    "location": "Near Pari Chowk",
+    "city": "Greater Noida",
+    "rent": 7600,
+    "deposit": 9000,
+    "rating": 4.3,
+    "reviews": 19,
+    "trustScore": 84,
+    "verified": false,
+    "distance": "3.4 km",
+    "roomType": [
+      "Double",
+      "Shared"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Laundry",
+      "Parking"
+    ],
+    "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=85",
+    "description": "A student-friendly stay with transparent pricing, practical amenities and easy access to college areas.",
+    "verificationDetails": {
+      "owner": 78,
+      "price": 88,
+      "reviews": 82,
+      "freshness": 76
+    }
+  },
+  {
+    "id": 7,
+    "name": "Metro Nest",
+    "location": "Sector 62",
+    "city": "Noida",
+    "rent": 10500,
+    "deposit": 15000,
+    "rating": 4.7,
+    "reviews": 67,
+    "trustScore": 95,
+    "verified": true,
+    "distance": "2.1 km",
+    "roomType": [
+      "Single",
+      "Double"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Food",
+      "Laundry"
+    ],
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=85",
+    "description": "A student-friendly stay with transparent pricing, practical amenities and easy access to college areas.",
+    "verificationDetails": {
+      "owner": 100,
+      "price": 96,
+      "reviews": 91,
+      "freshness": 88
+    }
+  },
+  {
+    "id": 8,
+    "name": "Budget Basera",
+    "location": "Vijay Nagar",
+    "city": "Ghaziabad",
+    "rent": 6000,
+    "deposit": 6000,
+    "rating": 4.1,
+    "reviews": 14,
+    "trustScore": 81,
+    "verified": true,
+    "distance": "6.2 km",
+    "roomType": [
+      "Shared",
+      "Triple"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Food",
+      "Power Backup"
+    ],
+    "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=900&q=85",
+    "description": "A student-friendly stay with transparent pricing, practical amenities and easy access to college areas.",
+    "verificationDetails": {
+      "owner": 100,
+      "price": 96,
+      "reviews": 82,
+      "freshness": 76
+    }
+  },
+  {
+    "id": 9,
+    "name": "Olive Stay",
+    "location": "Sector 137",
+    "city": "Noida",
+    "rent": 8900,
+    "deposit": 10000,
+    "rating": 4.5,
+    "reviews": 35,
+    "trustScore": 90,
+    "verified": true,
+    "distance": "3.9 km",
+    "roomType": [
+      "Single",
+      "Double"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Laundry",
+      "Parking"
+    ],
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=85",
+    "description": "A student-friendly stay with transparent pricing, practical amenities and easy access to college areas.",
+    "verificationDetails": {
+      "owner": 100,
+      "price": 96,
+      "reviews": 91,
+      "freshness": 88
+    }
+  },
+  {
+    "id": 10,
+    "name": "Hostel 24",
+    "location": "Knowledge Park II",
+    "city": "Greater Noida",
+    "rent": 6400,
+    "deposit": 6500,
+    "rating": 4.2,
+    "reviews": 23,
+    "trustScore": 86,
+    "verified": true,
+    "distance": "1.1 km",
+    "roomType": [
+      "Shared",
+      "Double"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Food",
+      "Laundry",
+      "Power Backup"
+    ],
+    "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=900&q=85",
+    "description": "A student-friendly stay with transparent pricing, practical amenities and easy access to college areas.",
+    "verificationDetails": {
+      "owner": 100,
+      "price": 96,
+      "reviews": 82,
+      "freshness": 76
+    }
+  }
+];

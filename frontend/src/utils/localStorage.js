@@ -1,0 +1,1 @@
+const get=(k,d=[])=>{try{return JSON.parse(localStorage.getItem(k))||d}catch{return d}};const put=(k,v)=>localStorage.setItem(k,JSON.stringify(v));export const getSavedProperties=()=>get("apna_saved");export const saveProperties=v=>put("apna_saved",v);export const getRecentlyViewed=()=>get("apna_recent");export const saveRecentlyViewed=v=>put("apna_recent",v);

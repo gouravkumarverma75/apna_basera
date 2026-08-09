@@ -1,0 +1,1 @@
+export const formatCurrency=n=>new Intl.NumberFormat("en-IN",{style:"currency",currency:"INR",maximumFractionDigits:0}).format(n);export const formatRating=n=>Number(n).toFixed(1);

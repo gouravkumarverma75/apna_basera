@@ -1,0 +1,1 @@
+@keyframes float{50%{transform:translateY(-7px)}}.float-card{animation:float 4s ease-in-out infinite}.float-card.score{animation-delay:.8s}.float-card.price{animation-delay:1.4s}@keyframes pulseGlow{0%,100%{opacity:.55}50%{opacity:1}}.streak-core{animation:pulseGlow 3s ease-in-out infinite}

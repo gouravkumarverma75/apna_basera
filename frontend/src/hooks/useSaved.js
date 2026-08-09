@@ -1,0 +1,1 @@
+import{useSavedContext}from"../context/SavedContext.jsx";export default function useSaved(){return useSavedContext()}
