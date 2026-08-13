@@ -1,0 +1,1 @@
+import{useEffect,useState}from"react";const KEY="apnabasera-theme";export default function useTheme(){const[theme,setTheme]=useState(()=>localStorage.getItem(KEY)||"dark");useEffect(()=>{document.documentElement.setAttribute("data-theme",theme);localStorage.setItem(KEY,theme)},[theme]);const toggle=()=>setTheme(t=>t==="dark"?"light":"dark");return{theme,toggle}}
